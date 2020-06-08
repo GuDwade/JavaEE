@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                          https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--&lt;!&ndash;定义bean对象:set()方法&ndash;&gt;-->
+    <!--<bean id="duck1" class="gu.model.Duck" scope="singleton">-->
+            <!--<property name="name" value="LadyGaga"/>-->
+            <!--<property name="age" value="10"/>-->
+    <!--</bean>-->
+
+    <!--&lt;!&ndash;定义bean对象:参构造方法生成对象 &ndash;&gt;-->
+    <!--<bean id="duck2" class="gu.model.Duck" scope="prototype">-->
+        <!--<constructor-arg name="name" value="烤鸭"/>-->
+        <!--<constructor-arg name="age" value="1"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="duckShop" class="gu.model.DuckShop">-->
+        <!--<property name="list">-->
+            <!--<list>-->
+                <!--<ref bean="duck1"/>-->
+                <!--<ref bean="duck2"/>-->
+            <!--</list>-->
+        <!--</property>-->
+
+    <!--</bean>-->
+
+    <bean id="test" class="gu.model.Test">
+    </bean>
+</beans>
